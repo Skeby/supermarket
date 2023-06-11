@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emergency Contact - Supermarket</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+  <div class="form-group">
+        <h1>Emergency Contact Form</h1>
+  <form id="add-emergency-contact-form" action="emergency_contact.php" method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+    </div>
+    <div>
+        <label for="telephone_number">Telephone Number:</label>
+        <input type="text" id="telephone_number" name="telephone_number" required>
+    </div>
+    <div>
+        <label for="branch_number">Branch Number:</label>
+        <input type="number" id="branch_number" name="branch_number" required>
+    </div>
+    <div>
+        <input class="btn btn-primary" type="submit" value="Add Emergency Contact">
+    </div>
+  </form>
+
+  </div>
+
+</body>
+</html>
