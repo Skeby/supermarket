@@ -6,7 +6,7 @@ $telephone_number = $_POST['telephone_number'];
 $staff_number = $_POST['staff_number'];
 
 //connect to the database
-$conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+$conn = mysqli_connect('localhost','root','','supermarket');
 
 //check the connection
 if(!$conn){

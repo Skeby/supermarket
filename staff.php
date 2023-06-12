@@ -10,7 +10,7 @@ $staff_number = $_POST['staff_number'];
 $branch_number = $_POST['branch_number'];
 
 //connect to the database
-$conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+$conn = mysqli_connect('localhost','root','','supermarket');
 
 //check the connection
 if(!$conn){

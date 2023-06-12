@@ -32,7 +32,7 @@
   		<tbody>
   			<?php
   			// connect to the database
-  			$conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+  			$conn = mysqli_connect('localhost','root','','supermarket');
 
        		//retrieve data from the staff table
         	$sql = "SELECT * FROM staff";
@@ -72,7 +72,7 @@
     	<tbody>
      	<?php
         	//connect to the database
-        	$conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        	$conn = mysqli_connect('localhost','root','','supermarket');
 
         	//retrieve data from the branch_office table
         	$sql = "SELECT * FROM branch_office";
@@ -106,7 +106,7 @@
     <tbody>
       <?php
         //connect to the database
-        $conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        $conn = mysqli_connect('localhost','root','','supermarket');
 
         //retrieve data from the manager table
         $sql = "SELECT * FROM manager";
@@ -138,7 +138,7 @@
     <tbody>
       <?php
         //connect to the database
-        $conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        $conn = mysqli_connect('localhost','root','','supermarket');
 
         //retrieve data from the secretary table
         $sql = "SELECT * FROM secretary";
@@ -170,7 +170,7 @@
     <tbody>
       <?php
         //connect to the database
-        $conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        $conn = mysqli_connect('localhost','root','','supermarket');
 
         //retrieve data from the sales_personnel table
         $sql = "SELECT * FROM sales_personnel";
@@ -205,7 +205,7 @@
     <tbody>
       <?php
         //connect to the database
-        $conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        $conn = mysqli_connect('localhost','root','','supermarket');
 
         //retrieve data from the next_of_kin table
         $sql = "SELECT * FROM next_of_kin";
@@ -242,7 +242,7 @@
     <tbody>
       <?php
         //connect to the database
-        $conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+        $conn = mysqli_connect('localhost','root','','supermarket');
 
         //retrieve data from the emergency_contact table
         $sql = "SELECT * FROM emergency_contact";

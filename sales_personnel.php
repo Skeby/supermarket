@@ -3,7 +3,7 @@ $staff_number = $_POST['staff_number'];
 $sales_area = $_POST['sales_area'];
 
 //connect to the database
-$conn = mysqli_connect('localhost','root','Qwerty107#','supermarket');
+$conn = mysqli_connect('localhost','root','','supermarket');
 
 //check the connection
 if(!$conn){
